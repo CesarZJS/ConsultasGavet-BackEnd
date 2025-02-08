@@ -1,0 +1,26 @@
+package cibertec.edu.gavet.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Entity
+@Table(name="veterinario")
+@Data
+public class Veterinario {
+	@Id
+	private int codigo_veterinario;
+	private String nombre_veterinario;
+	private String domicilio_veterinario;
+	private String escuela_veterinario;
+	private String telefono_veterinario;
+	
+	
+/*codigo_veterinario int		primary key,
+nombre_veterinario varchar(40),
+domicilio_veterinario varchar(40),
+escuela_veterinario	varchar(40),
+telefono_veterinario	varchar(40)
+ * */
+}

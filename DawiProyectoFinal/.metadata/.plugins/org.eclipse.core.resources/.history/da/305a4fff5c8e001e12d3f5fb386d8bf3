@@ -1,0 +1,32 @@
+package cibertec.edu.gavet.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Entity
+@Table(name="mascota")
+@Data
+public class Mascota {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int codigo_mascota;
+	private String nombre_mascota;
+	private String domicilio_mascota;
+	private String observacion_mascota;
+	private String raza_mascota;
+	private String color_mascota;
+	private int tipo_mascota;
+
+	/*codigo_mascota	int primary key,
+nombre_mascota	varchar(40),
+domicilio_mascota varchar(40),
+observacion_mascota varchar(40),
+raza_mascota	varchar(40),
+color_mascoa	varchar(40),
+tipo_mascota int
+	 * */
+}

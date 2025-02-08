@@ -1,0 +1,19 @@
+package cibertec.edu.gavet.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Entity
+@Table(name="cita")
+@Data
+public class Cita {
+	@Id
+	private int codigo_cita;
+	private String fecha_cita;
+	private int codigo_cliente;
+	private int codigo_veterinario;
+	private int codigo_mascota;
+	
+}

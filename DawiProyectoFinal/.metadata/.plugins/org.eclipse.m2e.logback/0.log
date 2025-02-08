@@ -1,0 +1,36 @@
+2023-11-27 22:50:23,965 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-11-27 22:51:16,310 [Worker-5: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cibertec.edu.gavet:TeamGavet:0.0.1-SNAPSHOT @ C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\pom.xml.
+2023-11-27 22:51:25,326 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-27 22:51:25,397 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-27 22:51:25,406 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\src\test\resources
+2023-11-27 23:10:42,765 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-27 23:10:42,776 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-27 23:10:42,781 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\src\test\resources
+2023-11-28 16:49:47,088 [Worker-40: Launching TeamGavet - TeamGavetApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-28 16:49:47,359 [Worker-40: Launching TeamGavet - TeamGavetApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-28 16:49:47,366 [Worker-40: Launching TeamGavet - TeamGavetApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\src\test\resources
+2023-11-28 20:26:07,244 [Worker-103: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cibertec.edu.gavet:TeamGavet:0.0.1-SNAPSHOT @ C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\pom.xml.
+2023-11-28 20:26:10,859 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-28 20:26:10,861 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-28 20:26:10,889 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\src\test\resources
+2023-11-28 20:26:58,082 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-28 20:26:58,232 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-28 20:26:58,241 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\src\test\resources
+2023-11-28 20:27:21,730 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-28 20:27:21,994 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-28 20:27:22,006 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\src\test\resources
+2023-11-28 20:27:27,844 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-28 20:27:27,855 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-28 20:27:27,862 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\src\test\resources
+2023-11-28 20:34:11,239 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-28 20:34:11,371 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-28 20:34:11,407 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\src\test\resources
+2023-11-28 20:39:46,769 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-28 20:39:46,893 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-28 20:39:46,904 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\src\test\resources
+2023-11-28 20:43:52,680 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-28 20:43:52,787 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-28 20:43:52,799 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\src\test\resources
+2023-11-28 21:14:18,020 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-28 21:14:18,242 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-28 21:14:18,342 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabri\Documentos\CIBERTEC\DawiProyectoFinal\TeamGavet\TeamGavet\src\test\resources
