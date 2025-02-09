@@ -219,3 +219,267 @@
 2025-02-09T11:18:16.670-05:00  INFO 23828 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-02-09T11:18:16.679-05:00  INFO 23828 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-02-09T11:18:16.692-05:00  INFO 23828 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-09T12:19:16.204-05:00  INFO 19716 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Starting TeamGavetApplication using Java 17.0.12 with PID 19716 (C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet\target\classes started by Fabri in C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet)
+2025-02-09T12:19:16.212-05:00  INFO 19716 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-09T12:19:16.297-05:00  INFO 19716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-09T12:19:16.298-05:00  INFO 19716 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-09T12:19:17.181-05:00  INFO 19716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-09T12:19:17.301-05:00  INFO 19716 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 4 JPA repository interfaces.
+2025-02-09T12:19:18.278-05:00  INFO 19716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-09T12:19:18.295-05:00  INFO 19716 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-09T12:19:18.296-05:00  INFO 19716 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-02-09T12:19:18.390-05:00  INFO 19716 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-09T12:19:18.391-05:00  INFO 19716 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2091 ms
+2025-02-09T12:19:18.566-05:00  INFO 19716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-09T12:19:19.163-05:00  INFO 19716 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38aa4665
+2025-02-09T12:19:19.167-05:00  INFO 19716 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-09T12:19:19.225-05:00  INFO 19716 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-09T12:19:19.307-05:00  INFO 19716 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-02-09T12:19:19.312-05:00  INFO 19716 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-02-09T12:19:19.701-05:00  INFO 19716 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-09T12:19:21.194-05:00  INFO 19716 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-09T12:19:21.199-05:00  INFO 19716 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:19:21.578-05:00  WARN 19716 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-09T12:19:21.879-05:00  WARN 19716 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-09T12:19:21.964-05:00  INFO 19716 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-09T12:19:22.016-05:00  INFO 19716 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-09T12:19:22.028-05:00  INFO 19716 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Started TeamGavetApplication in 6.546 seconds (process running for 7.087)
+2025-02-09T12:22:54.823-05:00  INFO 21220 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Starting TeamGavetApplication using Java 17.0.7 with PID 21220 (C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet\target\classes started by Fabri in C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet)
+2025-02-09T12:22:54.833-05:00  INFO 21220 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-09T12:22:54.940-05:00  INFO 21220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-09T12:22:54.942-05:00  INFO 21220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-09T12:22:56.674-05:00  INFO 21220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-09T12:22:56.787-05:00  INFO 21220 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 4 JPA repository interfaces.
+2025-02-09T12:22:57.789-05:00  INFO 21220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-09T12:22:57.817-05:00  INFO 21220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-09T12:22:57.818-05:00  INFO 21220 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-02-09T12:22:57.971-05:00  INFO 21220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-09T12:22:57.972-05:00  INFO 21220 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3028 ms
+2025-02-09T12:22:58.266-05:00  INFO 21220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-09T12:22:58.841-05:00  INFO 21220 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@81967b3
+2025-02-09T12:22:58.848-05:00  INFO 21220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-09T12:22:58.924-05:00  INFO 21220 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-09T12:22:59.069-05:00  INFO 21220 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-02-09T12:22:59.073-05:00  INFO 21220 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-02-09T12:22:59.660-05:00  INFO 21220 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-09T12:23:01.301-05:00  INFO 21220 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-09T12:23:01.310-05:00  INFO 21220 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:23:01.814-05:00  WARN 21220 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-09T12:23:02.259-05:00  WARN 21220 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-09T12:23:02.403-05:00  WARN 21220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-09T12:23:02.442-05:00  WARN 21220 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-09T12:23:02.448-05:00  INFO 21220 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:23:02.452-05:00  INFO 21220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-09T12:23:02.465-05:00  INFO 21220 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-09T12:23:02.468-05:00  INFO 21220 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-09T12:23:02.487-05:00  INFO 21220 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-09T12:23:02.523-05:00 ERROR 21220 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-09T12:24:22.520-05:00  INFO 22560 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Starting TeamGavetApplication using Java 17.0.7 with PID 22560 (C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet\target\classes started by Fabri in C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet)
+2025-02-09T12:24:22.523-05:00  INFO 22560 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-09T12:24:22.588-05:00  INFO 22560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-09T12:24:22.589-05:00  INFO 22560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-09T12:24:23.382-05:00  INFO 22560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-09T12:24:23.492-05:00  INFO 22560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 4 JPA repository interfaces.
+2025-02-09T12:24:24.320-05:00  INFO 22560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-09T12:24:24.335-05:00  INFO 22560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-09T12:24:24.335-05:00  INFO 22560 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-02-09T12:24:24.441-05:00  INFO 22560 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-09T12:24:24.442-05:00  INFO 22560 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1851 ms
+2025-02-09T12:24:24.638-05:00  INFO 22560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-09T12:24:25.087-05:00  INFO 22560 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@285d340f
+2025-02-09T12:24:25.090-05:00  INFO 22560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-09T12:24:25.152-05:00  INFO 22560 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-09T12:24:25.265-05:00  INFO 22560 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-02-09T12:24:25.267-05:00  INFO 22560 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-02-09T12:24:25.700-05:00  INFO 22560 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-09T12:24:27.272-05:00  INFO 22560 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-09T12:24:27.279-05:00  INFO 22560 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:24:27.685-05:00  WARN 22560 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-09T12:24:27.978-05:00  WARN 22560 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-09T12:24:28.079-05:00  WARN 22560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-09T12:24:28.136-05:00  WARN 22560 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-09T12:24:28.140-05:00  INFO 22560 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:24:28.146-05:00  INFO 22560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-09T12:24:28.160-05:00  INFO 22560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-09T12:24:28.164-05:00  INFO 22560 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-09T12:24:28.186-05:00  INFO 22560 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-09T12:24:28.219-05:00 ERROR 22560 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-09T12:28:49.796-05:00  INFO 1616 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Starting TeamGavetApplication using Java 17.0.12 with PID 1616 (C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet\target\classes started by Fabri in C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet)
+2025-02-09T12:28:49.799-05:00  INFO 1616 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-09T12:28:49.862-05:00  INFO 1616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-09T12:28:49.862-05:00  INFO 1616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-09T12:28:50.711-05:00  INFO 1616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-09T12:28:50.800-05:00  INFO 1616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 4 JPA repository interfaces.
+2025-02-09T12:28:51.954-05:00  INFO 1616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-09T12:28:51.982-05:00  INFO 1616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-09T12:28:51.983-05:00  INFO 1616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-02-09T12:28:52.118-05:00  INFO 1616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-09T12:28:52.119-05:00  INFO 1616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2256 ms
+2025-02-09T12:28:52.291-05:00  INFO 1616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-09T12:28:52.910-05:00  INFO 1616 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35bca222
+2025-02-09T12:28:52.914-05:00  INFO 1616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-09T12:28:52.978-05:00  INFO 1616 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-09T12:28:53.121-05:00  INFO 1616 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-02-09T12:28:53.127-05:00  INFO 1616 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-02-09T12:28:53.665-05:00  INFO 1616 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-09T12:28:55.163-05:00  INFO 1616 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-09T12:28:55.168-05:00  INFO 1616 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:28:55.639-05:00  WARN 1616 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-09T12:28:56.041-05:00  WARN 1616 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-09T12:28:56.150-05:00  INFO 1616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-09T12:28:56.216-05:00  INFO 1616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-09T12:28:56.239-05:00  INFO 1616 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Started TeamGavetApplication in 6.957 seconds (process running for 7.46)
+2025-02-09T12:29:16.054-05:00  INFO 2940 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Starting TeamGavetApplication using Java 17.0.7 with PID 2940 (C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet\target\classes started by Fabri in C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet)
+2025-02-09T12:29:16.057-05:00  INFO 2940 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-09T12:29:16.124-05:00  INFO 2940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-09T12:29:16.124-05:00  INFO 2940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-09T12:29:17.006-05:00  INFO 2940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-09T12:29:17.098-05:00  INFO 2940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 4 JPA repository interfaces.
+2025-02-09T12:29:17.903-05:00  INFO 2940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-09T12:29:17.918-05:00  INFO 2940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-09T12:29:17.919-05:00  INFO 2940 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-02-09T12:29:18.023-05:00  INFO 2940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-09T12:29:18.024-05:00  INFO 2940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1899 ms
+2025-02-09T12:29:18.182-05:00  INFO 2940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-09T12:29:18.639-05:00  INFO 2940 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@595f2928
+2025-02-09T12:29:18.643-05:00  INFO 2940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-09T12:29:18.702-05:00  INFO 2940 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-09T12:29:18.771-05:00  INFO 2940 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-02-09T12:29:18.776-05:00  INFO 2940 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-02-09T12:29:19.138-05:00  INFO 2940 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-09T12:29:20.521-05:00  INFO 2940 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-09T12:29:20.526-05:00  INFO 2940 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:29:20.966-05:00  WARN 2940 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-09T12:29:21.305-05:00  WARN 2940 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-09T12:29:21.430-05:00  WARN 2940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-09T12:29:21.466-05:00  WARN 2940 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-09T12:29:21.469-05:00  INFO 2940 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:29:21.473-05:00  INFO 2940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-09T12:29:21.483-05:00  INFO 2940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-09T12:29:21.487-05:00  INFO 2940 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-09T12:29:21.503-05:00  INFO 2940 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-09T12:29:21.528-05:00 ERROR 2940 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-09T12:29:33.594-05:00  INFO 1616 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-09T12:29:33.597-05:00  INFO 1616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-09T12:29:33.600-05:00  INFO 1616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-09T12:29:42.586-05:00  INFO 23708 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Starting TeamGavetApplication using Java 17.0.7 with PID 23708 (C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet\target\classes started by Fabri in C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet)
+2025-02-09T12:29:42.589-05:00  INFO 23708 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-09T12:29:42.648-05:00  INFO 23708 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-09T12:29:42.648-05:00  INFO 23708 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-09T12:29:43.539-05:00  INFO 23708 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-09T12:29:43.645-05:00  INFO 23708 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 4 JPA repository interfaces.
+2025-02-09T12:29:44.435-05:00  INFO 23708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-09T12:29:44.451-05:00  INFO 23708 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-09T12:29:44.452-05:00  INFO 23708 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-02-09T12:29:44.569-05:00  INFO 23708 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-09T12:29:44.570-05:00  INFO 23708 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1921 ms
+2025-02-09T12:29:44.854-05:00  INFO 23708 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-09T12:29:45.568-05:00  INFO 23708 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@285d340f
+2025-02-09T12:29:45.571-05:00  INFO 23708 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-09T12:29:45.623-05:00  INFO 23708 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-09T12:29:45.718-05:00  INFO 23708 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-02-09T12:29:45.723-05:00  INFO 23708 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-02-09T12:29:46.165-05:00  INFO 23708 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-09T12:29:47.524-05:00  INFO 23708 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-09T12:29:47.529-05:00  INFO 23708 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:29:47.986-05:00  WARN 23708 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-09T12:29:48.301-05:00  WARN 23708 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-09T12:29:48.466-05:00  WARN 23708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-02-09T12:29:48.510-05:00  WARN 23708 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-09T12:29:48.513-05:00  INFO 23708 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:29:48.517-05:00  INFO 23708 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-09T12:29:48.528-05:00  INFO 23708 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-09T12:29:48.531-05:00  INFO 23708 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-09T12:29:48.549-05:00  INFO 23708 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-09T12:29:48.575-05:00 ERROR 23708 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-09T12:33:20.757-05:00  INFO 1616 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-09T12:33:20.809-05:00  INFO 1616 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-09T12:33:20.812-05:00  INFO 1616 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-02-09T12:33:20.848-05:00  INFO 1616 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:33:20.879-05:00  INFO 1616 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-09T12:33:20.919-05:00  INFO 1616 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-09T12:33:21.269-05:00  INFO 1616 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Starting TeamGavetApplication using Java 17.0.12 with PID 1616 (C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet\target\classes started by Fabri in C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet)
+2025-02-09T12:33:21.271-05:00  INFO 1616 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-09T12:33:21.817-05:00  INFO 1616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-09T12:33:21.874-05:00  INFO 1616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+2025-02-09T12:33:22.171-05:00  INFO 1616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-09T12:33:22.173-05:00  INFO 1616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-09T12:33:22.174-05:00  INFO 1616 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-02-09T12:33:22.225-05:00  INFO 1616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-09T12:33:22.226-05:00  INFO 1616 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 947 ms
+2025-02-09T12:33:22.314-05:00  INFO 1616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-02-09T12:33:22.354-05:00  INFO 1616 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@452f06d
+2025-02-09T12:33:22.356-05:00  INFO 1616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-02-09T12:33:22.361-05:00  INFO 1616 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-09T12:33:22.380-05:00  INFO 1616 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-09T12:33:22.556-05:00  INFO 1616 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-09T12:33:22.557-05:00  INFO 1616 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:33:22.892-05:00  WARN 1616 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-09T12:33:23.109-05:00  WARN 1616 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-09T12:33:23.166-05:00  INFO 1616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-09T12:33:23.198-05:00  INFO 1616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-09T12:33:23.212-05:00  INFO 1616 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Started TeamGavetApplication in 2.018 seconds (process running for 274.433)
+2025-02-09T12:33:23.217-05:00  INFO 1616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-09T12:33:30.298-05:00  INFO 1616 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T12:33:30.300-05:00  INFO 1616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-02-09T12:33:30.316-05:00  INFO 1616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
