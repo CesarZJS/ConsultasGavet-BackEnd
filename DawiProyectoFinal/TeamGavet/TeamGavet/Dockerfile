@@ -11,7 +11,7 @@ COPY . .
 RUN ls -la
 
 # Si existe mvnw, dale permisos de ejecución
-RUN if [ -f mvnw ]; then chmod +x mvnw; fi
+RUN chmod +x mvnw || echo "No se encontró mvnw, continuando..."
 
 # Compila el proyecto usando el wrapper de Maven
 RUN ./mvnw clean package -DskipTests
