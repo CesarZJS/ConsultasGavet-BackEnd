@@ -1,22 +1,27 @@
-# Usa una imagen de OpenJDK 17 para compilar
-FROM openjdk:17-jdk-slim AS build
+# Usa una imagen oficial con Java 17 y Maven preinstalado
+FROM maven:3.9.6-eclipse-temurin-17 AS build
+
+
+# Establece el directorio de trabajo
 WORKDIR /app
 
-# Copia el código fuente al contenedor
+# Copia el código fuente
 COPY . .
 
-# Da permisos de ejecución a Maven Wrapper y compila la aplicación
-RUN chmod +x mvnw && ./mvnw clean package -DskipTests
+# Compila el proyecto
+RUN mvn clean package -DskipTests
 
-# Usa una imagen más ligera para ejecutar la aplicación
+# Usa una imagen ligera con solo Java para correr la app
 FROM openjdk:17-jdk-slim
+
+# Establece el directorio de trabajo
 WORKDIR /app
 
-# Copia el JAR compilado desde la fase de construcción
+# Copia el archivo JAR desde la etapa de compilación
 COPY --from=build /app/target/*.jar app.jar
 
-# Expone el puerto de la aplicación
+# Expone el puerto
 EXPOSE 8080
 
 # Comando para ejecutar la aplicación
-CMD ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]
