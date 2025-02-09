@@ -7,14 +7,14 @@ WORKDIR /app
 # Copia el código fuente
 COPY . .
 
-# Verifica que el wrapper de Maven existe
+# Verifica los archivos en el directorio (opcional para depuración)
 RUN ls -la
 
-# Da permisos de ejecución al wrapper de Maven
-RUN chmod +x mvnw
+# Si existe mvnw, dale permisos de ejecución
+RUN if [ -f mvnw ]; then chmod +x mvnw; fi
 
 # Compila el proyecto
-RUN ./mvnw clean package -DskipTests
+RUN mvn clean package -DskipTests
 
 # Usa una imagen ligera con solo Java para correr la app
 FROM openjdk:17-jdk-slim
@@ -30,4 +30,3 @@ EXPOSE 8080
 
 # Comando para ejecutar la aplicación
 ENTRYPOINT ["java", "-jar", "app.jar"]
-
