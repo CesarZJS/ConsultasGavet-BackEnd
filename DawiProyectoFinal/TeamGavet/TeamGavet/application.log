@@ -1,6 +1,83 @@
-2025-02-08T01:30:45.897-05:00  INFO 27724 --- [RMI TCP Connection(160)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-08T01:30:46.274-05:00  INFO 27724 --- [RMI TCP Connection(160)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-02-08T01:30:46.289-05:00  INFO 27724 --- [RMI TCP Connection(160)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2025-02-08T01:30:46.368-05:00  INFO 27724 --- [RMI TCP Connection(160)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-08T01:30:46.438-05:00  INFO 27724 --- [RMI TCP Connection(160)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-08T01:30:46.459-05:00  INFO 27724 --- [RMI TCP Connection(160)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-09T08:01:15.155-05:00  INFO 38212 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Starting TeamGavetApplication using Java 17.0.7 with PID 38212 (C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet\target\classes started by Fabri in C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet)
+2025-02-09T08:01:15.163-05:00  INFO 38212 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-09T08:01:15.244-05:00  INFO 38212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-09T08:01:15.245-05:00  INFO 38212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-09T08:01:16.433-05:00  INFO 38212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-09T08:01:16.523-05:00  INFO 38212 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 4 JPA repository interfaces.
+2025-02-09T08:01:17.223-05:00  INFO 38212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-09T08:01:17.235-05:00  INFO 38212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-09T08:01:17.235-05:00  INFO 38212 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-02-09T08:01:17.316-05:00  INFO 38212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-09T08:01:17.316-05:00  INFO 38212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2071 ms
+2025-02-09T08:01:17.465-05:00  INFO 38212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-09T08:01:17.907-05:00  INFO 38212 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ee314f4
+2025-02-09T08:01:17.910-05:00  INFO 38212 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-09T08:01:17.962-05:00  INFO 38212 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-09T08:01:18.045-05:00  INFO 38212 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-02-09T08:01:18.048-05:00  INFO 38212 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-02-09T08:01:18.411-05:00  INFO 38212 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-09T08:01:19.891-05:00  INFO 38212 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-09T08:01:19.894-05:00  INFO 38212 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T08:01:20.298-05:00  WARN 38212 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-09T08:01:20.706-05:00  WARN 38212 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-09T08:01:20.811-05:00  INFO 38212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-09T08:01:20.863-05:00  INFO 38212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-09T08:01:20.872-05:00  INFO 38212 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Started TeamGavetApplication in 6.193 seconds (process running for 7.382)
+2025-02-09T08:38:12.753-05:00  INFO 38212 --- [RMI TCP Connection(45)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-09T08:38:12.922-05:00  INFO 38212 --- [RMI TCP Connection(45)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-09T08:38:13.037-05:00  INFO 38212 --- [RMI TCP Connection(45)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T08:38:13.094-05:00  INFO 38212 --- [RMI TCP Connection(45)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-09T08:38:13.131-05:00  INFO 38212 --- [RMI TCP Connection(45)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-09T09:26:14.779-05:00  INFO 24812 --- [main] c.edu.gavet.TeamGavetApplicationTests    : Starting TeamGavetApplicationTests using Java 17.0.12 with PID 24812 (started by Fabri in C:\Users\Fabri\Documentos\Cibertec\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet)
+2025-02-09T09:26:14.782-05:00  INFO 24812 --- [main] c.edu.gavet.TeamGavetApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-02-09T09:26:15.800-05:00  INFO 24812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-09T09:26:15.938-05:00  INFO 24812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 4 JPA repository interfaces.
+2025-02-09T09:26:16.570-05:00  INFO 24812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-09T09:26:17.088-05:00  INFO 24812 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@548e43b1
+2025-02-09T09:26:17.090-05:00  INFO 24812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-09T09:26:17.148-05:00  INFO 24812 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-09T09:26:17.253-05:00  INFO 24812 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-02-09T09:26:17.257-05:00  INFO 24812 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-02-09T09:26:17.705-05:00  INFO 24812 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-09T09:26:19.478-05:00  INFO 24812 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-09T09:26:19.483-05:00  INFO 24812 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T09:26:20.134-05:00  WARN 24812 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-09T09:26:20.621-05:00  WARN 24812 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-09T09:26:20.717-05:00  INFO 24812 --- [main] c.edu.gavet.TeamGavetApplicationTests    : Started TeamGavetApplicationTests in 6.327 seconds (process running for 7.716)
+2025-02-09T09:26:21.421-05:00  INFO 24812 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T09:26:21.426-05:00  INFO 24812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-09T09:26:21.442-05:00  INFO 24812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-09T09:26:35.136-05:00  INFO 30564 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Starting TeamGavetApplication using Java 17.0.7 with PID 30564 (C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet\target\classes started by Fabri in C:\Users\Fabri\Documentos\CIBERTEC\PROYECTO_GAVET_CONSULTAS\BACKEND_SPRING\DawiProyectoFinal\TeamGavet\TeamGavet)
+2025-02-09T09:26:35.140-05:00  INFO 30564 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-09T09:26:35.194-05:00  INFO 30564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-09T09:26:35.194-05:00  INFO 30564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-09T09:26:36.337-05:00  INFO 30564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-09T09:26:36.410-05:00  INFO 30564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+2025-02-09T09:26:37.062-05:00  INFO 30564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-09T09:26:37.076-05:00  INFO 30564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-09T09:26:37.076-05:00  INFO 30564 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-02-09T09:26:37.158-05:00  INFO 30564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-09T09:26:37.159-05:00  INFO 30564 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1963 ms
+2025-02-09T09:26:37.290-05:00  INFO 30564 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-09T09:26:37.666-05:00  INFO 30564 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5aee0774
+2025-02-09T09:26:37.668-05:00  INFO 30564 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-09T09:26:37.713-05:00  INFO 30564 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-09T09:26:37.792-05:00  INFO 30564 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-02-09T09:26:37.796-05:00  INFO 30564 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-02-09T09:26:38.172-05:00  INFO 30564 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-09T09:26:39.315-05:00  INFO 30564 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-09T09:26:39.319-05:00  INFO 30564 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T09:26:39.624-05:00  WARN 30564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-09T09:26:39.877-05:00  WARN 30564 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-02-09T09:26:39.965-05:00  INFO 30564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-09T09:26:40.015-05:00  INFO 30564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-09T09:26:40.024-05:00  INFO 30564 --- [restartedMain] c.edu.gavet.TeamGavetApplication         : Started TeamGavetApplication in 5.536 seconds (process running for 6.593)
+2025-02-09T09:27:17.889-05:00  INFO 30564 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-09T09:27:17.891-05:00  INFO 30564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-09T09:27:17.893-05:00  INFO 30564 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-09T09:30:04.742-05:00  INFO 30564 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-09T09:30:04.798-05:00  INFO 30564 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-09T09:30:04.802-05:00  INFO 30564 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-02-09T09:30:04.826-05:00  INFO 30564 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-09T09:30:04.835-05:00  INFO 30564 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-09T09:30:04.856-05:00  INFO 30564 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
